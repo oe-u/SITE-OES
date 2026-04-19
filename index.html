@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>arandu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css/index.css">
 </head>
 <body>
   
+ <!-- ===== NAVBAR ===== -->
+   <header class="site-header">
+  <div class="header-logo">
+    <img src="assests/Logo branca.png" alt="OES Logo" />
+  </div>
+  <nav class="header-nav">
+    <ul>
+      <li><a href="#sobre">SOBRE</a></li>
+      <li><a href="#projeto">PROJETO</a></li>
+      <li><a href="#contato">CONTATO</a></li>
+    </ul>
+  </nav>
+</header>
+
+<script>
+  document.querySelectorAll('.header-nav a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.querySelectorAll('.header-nav a').forEach(a => a.classList.remove('active'));
+      link.classList.add('active');
+    });
+  });
+</script>
 </body>
 </html>
