@@ -147,7 +147,7 @@ p {
     background-color: #E1FAFA;
   padding: 72px 48px 80px;
   text-align: center;
-}
+
 
 .dados-titulo {
   font: 700 clamp(32px, 5vw, 64px)/140% var(--font-family);
@@ -192,7 +192,47 @@ p {
   text-align: center;
   padding: 0 1x;
 }
+}
+.contato-section {
+  background-color: var(--bg-color);
+  padding: 72px 24px 80px;
+  text-align: center;
+  
+}
 
+.contato-titulo {
+  font: 700 clamp(28px, 5vw, 52px)/140% var(--font-family);
+  color: var(--text-color-primary);
+  margin-bottom: 8px;
+}
+
+.contato-sub {
+  font: var(--text);
+  color: var(--text-color-primary);
+  opacity: 0.75;
+  margin-bottom: 40px;
+}
+
+.contato-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.contato-card {
+  background: var(--stroke-color);
+  border-radius: 14px;
+  padding: 18px 24px;
+  color: var(--text-color-primary);
+  font: var(--text);
+  transition: opacity 0.2s ease;
+}
+
+.contato-card:hover {
+  opacity: 0.85;
+}
 /* Mobile */
 @media (max-width: 640px) {
   .dados-section { padding: 48px 20px 60px; }
@@ -219,3 +259,18 @@ p {
     padding: 40px 16px;
   }
 }
+.oes-wavess {
+  position: relative;
+  width: 100%;
+  margin: 1px 0 0 0;
+  overflow: hidden;
+  z-index: 1;
+  display: block;
+}
+
+.oes-wavess svg {
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+ 
