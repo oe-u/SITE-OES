@@ -5,6 +5,7 @@
   justify-content: space-between;
   padding: 6px 16px;
   min-height: 42px;
+
 }
 
 .header-logo img {
@@ -37,6 +38,8 @@
   color: #ffeb3b;
   text-shadow: 0 0 8px rgba(255, 235, 59, 0.5);
 }
+
+
 
 @media (max-width: 768px) {
   .header-logo img {

@@ -10,15 +10,18 @@
       --stroke-color:#4973DE;;
       --text-color-primary: #E1FAFA;
       --text-color-secondary:#1353a0;
-
       --font-family: 'Montserrat', sans-serif;
       --h1:800 32px/140% var(--font-family);
       --h2:800 16px/140% var(--font-family);
       --h3:800 14px/140% var(--font-family);
+      --p:200 9px/140% var(--font-family);
       --text:400 16px/140% var(--font-family);
       --text-span:600 14px/145% var(--font-family);
-      --text-small:400 14px/160% var(--font-family);
+      --text-small:400 12px/160% var(--font-family);
     }
+   html {
+  scroll-behavior: smooth;
+}
     body {
       font: var(--text);
       background-color: var(--bg-color);
@@ -34,8 +37,15 @@
     }
     h1,h2,h3 {
       font: inherit
+  
     }
     img {
       max-width: 100%; 
+    }
+    p{
+      text-align: justify;
+      padding: 8px 0;
+      font-size: 12px;
+
     }
    
