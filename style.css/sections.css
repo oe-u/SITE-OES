@@ -186,6 +186,29 @@ p {
   line-height: 1.5;
 }
 
+.github-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: #4b9aea;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.github-btn:hover {
+  background: #052a54;
+}
+.github-wrapper {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 100px; /* ajusta conforme a altura da onda */
+  width: 100%;
+}
 /* === Contato === */
 #contato {
   background-color: var(--bg-color);
